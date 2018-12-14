@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c32fe8d5-9f3b-4f33-8ac7-f38e6b792d88" name="Default Changelist" comment="First push after 111.Starting B component">
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/Layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sandwhich/Sandwhich.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sandwhich/Sandwhich.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sandwhich/SandwhichIngredient/SandwhichIngredient.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sandwhich/SandwhichIngredient/SandwhichIngredient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/SandwhichMaker/SandwhichMaker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoc/Auxiliary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-    </list>
+    <list default="true" id="c32fe8d5-9f3b-4f33-8ac7-f38e6b792d88" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -214,15 +196,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544762903049</updated>
-      <workItem from="1544762904611" duration="19335000" />
+      <workItem from="1544762904611" duration="19581000" />
     </task>
+    <task id="LOCAL-00001" summary="First push after 111.Starting B component">
+      <created>1544790935123</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544790935123</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First push after 111.Starting B component">
+      <created>1544791003650</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544791003650</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19335000" />
+    <option name="totallyTimeSpent" value="19581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
