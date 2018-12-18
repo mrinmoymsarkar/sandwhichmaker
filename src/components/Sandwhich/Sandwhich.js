@@ -13,7 +13,7 @@ const sandwhich = (props) => {
         .reduce((arr, el) => {
             return arr.concat(el)
         }, []);
-    if(transformedIngredients.length  === 0){
+    if(transformedIngredients.length  <= 0){
         transformedIngredients = <p>Please start adding ingredients</p>
     }
     console.log(transformedIngredients);

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c32fe8d5-9f3b-4f33-8ac7-f38e6b792d88" name="Default Changelist" comment="First push after 112 Outputting Dynamically">
-      <change afterPath="$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControl/BuildControl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControls.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControls.js" afterDir="false" />
+    <list default="true" id="c32fe8d5-9f3b-4f33-8ac7-f38e6b792d88" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControl/BuildControl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControl/BuildControl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControls.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sandwhich/Sandwhich.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sandwhich/Sandwhich.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/SandwhichMaker/SandwhichMaker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SandwhichMaker/SandwhichMaker.js" afterDir="false" />
     </list>
@@ -20,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControl/BuildControl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="253">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -32,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControls.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="18" column="66" lean-forward="true" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+            <state relative-caret-position="272">
+              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -47,10 +46,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/SandwhichMaker/SandwhichMaker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            <state relative-caret-position="134">
+              <caret line="67" column="47" lean-forward="true" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Sandwhich/Sandwhich.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,18 +92,18 @@
         <option value="$PROJECT_DIR$/src/components/Sandwhich/SandwhichIngredient/SandwhichIngredient.css" />
         <option value="$PROJECT_DIR$/src/components/Sandwhich/SandwhichIngredient/SandwhichIngredient.js" />
         <option value="$PROJECT_DIR$/src/components/Sandwhich/Sandwhich.css" />
-        <option value="$PROJECT_DIR$/src/components/Sandwhich/Sandwhich.js" />
         <option value="$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControl/BuildControl.css" />
         <option value="$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControls.css" />
+        <option value="$PROJECT_DIR$/src/components/Sandwhich/Sandwhich.js" />
+        <option value="$PROJECT_DIR$/src/containers/SandwhichMaker/SandwhichMaker.js" />
         <option value="$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControl/BuildControl.js" />
         <option value="$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControls.js" />
-        <option value="$PROJECT_DIR$/src/containers/SandwhichMaker/SandwhichMaker.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="704" />
+    <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -125,20 +136,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Sandwhich" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demoproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demoproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Sandwhich" type="462c0819:PsiDirectoryNode" />
-              <item name="BuildControls" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demoproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demoproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,7 +178,8 @@
       <updated>1544762903049</updated>
       <workItem from="1544762904611" duration="24879000" />
       <workItem from="1545019167138" duration="8273000" />
-      <workItem from="1545046412102" duration="10636000" />
+      <workItem from="1545046412102" duration="10706000" />
+      <workItem from="1545105424848" duration="6141000" />
     </task>
     <task id="LOCAL-00001" summary="First push after 111.Starting B component">
       <created>1544790935123</created>
@@ -218,17 +216,24 @@
       <option name="project" value="LOCAL" />
       <updated>1545057765696</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="First push after 112 Outputting Dynamically">
+      <created>1545057963326</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1545057963326</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43788000" />
+    <option name="totallyTimeSpent" value="49999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.118303575" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.118303575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -243,7 +248,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297491" />
       <window_info active="true" anchor="bottom" id="Messages" order="9" visible="true" weight="0.3295238" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.34229392" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22401434" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -294,9 +299,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First push after 111.Starting B component" />
-    <MESSAGE value="First push after 112 Outputting Dynamically" />
     <MESSAGE value="First push after 116 Connecting to buildControl added" />
-    <option name="LAST_COMMIT_MESSAGE" value="First push after 116 Connecting to buildControl added" />
+    <MESSAGE value="First push after 112 Outputting Dynamically" />
+    <option name="LAST_COMMIT_MESSAGE" value="First push after 112 Outputting Dynamically" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -388,13 +393,6 @@
     <entry file="file://E:/course/[FreeTutorials.Us] Udemy - react-the-complete-guide-incl-redux/08 A Real App_ The Burger Builder (Basic Version)/burger-basics--02-after-ingredients/src/components/Burger/Burger.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Sandwhich/Sandwhich.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/course/[FreeTutorials.Us] Udemy - react-the-complete-guide-incl-redux/08 A Real App_ The Burger Builder (Basic Version)/burger-basics--02-after-ingredients/src/components/Burger/Burger.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -454,16 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Sandwhich/Sandwhich.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Layout/Layout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -481,30 +469,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Sandwhich/Sandwhich.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Sandwhich/Sandwhich.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/SandwhichMaker/SandwhichMaker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        <state relative-caret-position="134">
+          <caret line="67" column="47" lean-forward="true" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControls.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControl/BuildControl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="18" column="66" lean-forward="true" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+        <state relative-caret-position="253">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControl/BuildControl.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControls.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="272">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
