@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c32fe8d5-9f3b-4f33-8ac7-f38e6b792d88" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControl/BuildControl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControl/BuildControl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sandwhich/Sandwhich.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sandwhich/Sandwhich.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/SandwhichMaker/SandwhichMaker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SandwhichMaker/SandwhichMaker.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControl/BuildControl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="255">
               <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -34,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControls.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state relative-caret-position="255">
+              <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -46,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/SandwhichMaker/SandwhichMaker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="67" column="47" lean-forward="true" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
+            <state relative-caret-position="225">
+              <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -58,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Sandwhich/Sandwhich.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
+            <state relative-caret-position="289">
               <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -95,13 +93,13 @@
         <option value="$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControl/BuildControl.css" />
         <option value="$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControls.css" />
         <option value="$PROJECT_DIR$/src/components/Sandwhich/Sandwhich.js" />
-        <option value="$PROJECT_DIR$/src/containers/SandwhichMaker/SandwhichMaker.js" />
         <option value="$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControl/BuildControl.js" />
+        <option value="$PROJECT_DIR$/src/containers/SandwhichMaker/SandwhichMaker.js" />
         <option value="$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControls.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -179,7 +177,7 @@
       <workItem from="1544762904611" duration="24879000" />
       <workItem from="1545019167138" duration="8273000" />
       <workItem from="1545046412102" duration="10706000" />
-      <workItem from="1545105424848" duration="6141000" />
+      <workItem from="1545105424848" duration="8398000" />
     </task>
     <task id="LOCAL-00001" summary="First push after 111.Starting B component">
       <created>1544790935123</created>
@@ -223,15 +221,21 @@
       <option name="project" value="LOCAL" />
       <updated>1545057963326</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="after 117 Removing Ingredients Safely">
+      <created>1545112747022</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545112747022</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49999000" />
+    <option name="totallyTimeSpent" value="52256000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.118303575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -246,7 +250,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297491" />
-      <window_info active="true" anchor="bottom" id="Messages" order="9" visible="true" weight="0.3295238" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32795697" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22401434" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -301,7 +305,8 @@
     <MESSAGE value="First push after 111.Starting B component" />
     <MESSAGE value="First push after 116 Connecting to buildControl added" />
     <MESSAGE value="First push after 112 Outputting Dynamically" />
-    <option name="LAST_COMMIT_MESSAGE" value="First push after 112 Outputting Dynamically" />
+    <MESSAGE value="after 117 Removing Ingredients Safely" />
+    <option name="LAST_COMMIT_MESSAGE" value="after 117 Removing Ingredients Safely" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -478,7 +483,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Sandwhich/Sandwhich.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="289">
           <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -488,8 +493,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/SandwhichMaker/SandwhichMaker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="67" column="47" lean-forward="true" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
+        <state relative-caret-position="225">
+          <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -498,7 +503,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControl/BuildControl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="255">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -508,8 +513,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Sandwhich/BuildControls/BuildControls.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        <state relative-caret-position="255">
+          <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
