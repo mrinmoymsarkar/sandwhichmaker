@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
-import  Aux from '../../hoc/Auxiliary';
+import  Aux from '../../hoc/Auxilary/Auxiliary';
 import  Sandwhich from '../../components/Sandwhich/Sandwhich'
 import BuildControls from '../../components/Sandwhich/BuildControls/BuildControls'
 import  Modal from '../../components/UI/Modal/Modal'
 import OrderSummary from '../../components/Sandwhich/OrderSummary/OrderSummary'
 
 const INGREDIENT_PRICES = {
-    salad: 0.5,
-    cheese: 0.4,
-    meat: 1.3,
-    bacon: 0.7
+    salad: 5.5,
+    cheese: 10.4,
+    meat: 30.3,
+    bacon: 17.7
 };
 
 class SandwhichMaker extends Component {
@@ -20,7 +20,7 @@ class SandwhichMaker extends Component {
             cheese: 0,
             meat: 0
         },
-        totalPrice: 4,
+        totalPrice: 40,
         purchasable: false,
         purchasing:false
     }
@@ -61,6 +61,10 @@ class SandwhichMaker extends Component {
         this.setState({purchasing:false})
     }
 
+    purchaseContinueHandler = () => {
+        alert('You Continue')
+    }
+
     removeIngredientHandler = (type) => {
         const oldCount = this.state.ingredients[type]
         if (oldCount<=0){
@@ -90,7 +94,11 @@ class SandwhichMaker extends Component {
         return (
             <Aux>
                 <Modal show = {this.state.purchasing} modalClosed = {this.purchaseCancelHandler}>
-                    <OrderSummary ingredients={this.state.ingredients  }/>
+                    <OrderSummary
+                        ingredients={this.state.ingredients}
+                        price = {this.state.totalPrice}
+                        purchaseCanceled = {this.purchaseCancelHandler }
+                        purchaseContinued = {this.purchaseContinueHandler}/>
                 </Modal>
                 <Sandwhich ingredients={this.state.ingredients}/>
                 <BuildControls
