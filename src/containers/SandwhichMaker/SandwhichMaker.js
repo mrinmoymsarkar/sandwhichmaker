@@ -4,6 +4,8 @@ import  Sandwhich from '../../components/Sandwhich/Sandwhich'
 import BuildControls from '../../components/Sandwhich/BuildControls/BuildControls'
 import  Modal from '../../components/UI/Modal/Modal'
 import OrderSummary from '../../components/Sandwhich/OrderSummary/OrderSummary'
+import axios from '../../axios-orders'
+import Spinner from '../../components/UI/Spinner/Spinner'
 
 const INGREDIENT_PRICES = {
     salad: 5.5,
@@ -22,7 +24,8 @@ class SandwhichMaker extends Component {
         },
         totalPrice: 40,
         purchasable: false,
-        purchasing:false
+        purchasing:false,
+        loading:false
     }
 
     updatePurchaseState (ingredients) {
@@ -62,7 +65,29 @@ class SandwhichMaker extends Component {
     }
 
     purchaseContinueHandler = () => {
-        alert('You Continue')
+        //alert('You Continue')
+        this.setState({loading:true});
+        const order = {
+            ingredients: this.state.ingredients,
+            price:this.state.totalPrice,
+            customer:{
+                name: 'Mrinmoy Sarkar',
+                address: {
+                    street:"Dalinagar",
+                    pincode: '402208',
+                    country: 'India'
+                },
+                email: 'mrinmoy.sarkar@techprimelab.com'
+            },
+            deliveryMethod:'Fastest'
+        }
+        axios.post('/order.json',order)
+            .then(response => {
+                this.setState({loading:false, purchasing:false});
+            })
+            .catch(error =>  {
+                this.setState({loading:false, purchasing:false});
+            })
     }
 
     removeIngredientHandler = (type) => {
@@ -90,15 +115,20 @@ class SandwhichMaker extends Component {
         for (let key in disabledInfo){
             disabledInfo[key] = disabledInfo[key] <= 0
         }
+        let orderSummary =  <OrderSummary
+            ingredients={this.state.ingredients}
+            price = {this.state.totalPrice}
+            purchaseCanceled = {this.purchaseCancelHandler }
+            purchaseContinued = {this.purchaseContinueHandler}/>
+
+        if (this.state.loading){
+            orderSummary = <Spinner/>
+        }
 
         return (
             <Aux>
                 <Modal show = {this.state.purchasing} modalClosed = {this.purchaseCancelHandler}>
-                    <OrderSummary
-                        ingredients={this.state.ingredients}
-                        price = {this.state.totalPrice}
-                        purchaseCanceled = {this.purchaseCancelHandler }
-                        purchaseContinued = {this.purchaseContinueHandler}/>
+                    {orderSummary}
                 </Modal>
                 <Sandwhich ingredients={this.state.ingredients}/>
                 <BuildControls
